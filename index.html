@@ -16,13 +16,13 @@ Licence URI: https://www.os-templates.com/template-terms
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <script> 
-function notif() {
-  swal({
-  title: "Email Submitted",
-  text: "Thank you for your support!",
-  icon: "success",
-});
-}
+  function notif() {
+    swal({
+    title: "Email Submitted",
+    text: "Thank you for your support!",
+    icon: "success",
+  });
+  }
 </script>
 <script>
   function showMessage() {
@@ -235,13 +235,10 @@ function notif() {
     </div>
     <div class="one_quarter">
       <h6 class="title">Subscribe to our Email</h6>
-      <form class="btmspace-30">
-        <fieldset>
-          <legend>Newsletter:</legend>
+      
           <input class="btmspace-15">
           <button onclick="notif()">Submit</button>
-        </fieldset>
-      </form>
+
       <ul class="faico clear">
         <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
         <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
